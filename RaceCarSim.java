@@ -165,7 +165,7 @@ public class RaceCarSim {
             
             freGame2.setVisible(true);
 
-            //Moves position of car on screen
+            //Moves position of car in the window
             Random rr = new Random();
             do {
                 randcar = randcar + rr.nextInt(30);
